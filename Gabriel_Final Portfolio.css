@@ -1,0 +1,119 @@
+body{background-color: gainsboro;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding:20px;
+color: #333;}
+
+div{
+    border:10px solid;
+    border-style: solid 25px;
+    border-color: black;
+    padding: 100px;
+    margin:50px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50px;
+    height: auto;
+}
+
+ div img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid; color: mediumseagreen;
+  margin-bottom: 10px;
+}
+
+
+
+h1, h2, h3 {font-family: Georgia, 'Times New Roman', Times, serif;
+color: #2a2a2a;;}
+
+
+form { text-align: center; 
+    border: 5px;
+border-style: solid;
+padding: 30px;
+margin-right: 500px; 
+margin-left:500px;
+border-radius: 80px;
+width: auto;
+height: auto;}
+
+nav {
+    margin-top: 10px;
+    background-color: mediumseagreen;
+    padding: 10px 0;
+    text-align: center;}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;}
+
+    section {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);}
+
+ form label {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;}
+
+    input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-style: italic;
+    color: #666;
+}
+
+button {
+  background: mediumseagreen;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  margin: 10px 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+section a{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;}
+
+    #Credentials img {
+  margin: 10px;
+  border-radius: 15px;
+  border: 3px solid; color: mediumseagreen;
+  box-shadow: 0 4px 10px color:mediumseagreen
+}
+
+ul li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+input, textarea {
+  width: 95%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: 2px solid; color: mediumseagreen;
+  background: #f7fbff;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
